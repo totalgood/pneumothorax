@@ -1,0 +1,27 @@
+name: kaggle
+
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  - h5py
+  - jupyter
+  - keras-applications
+  - keras-preprocessing
+  - keras
+  - matplotlib
+  - opencv
+  - pandas
+  - pandoc
+  - pip
+  - plac
+  - plotly
+  - scipy
+  - spacy
+  - tensorflow
+  - tensorflow-hub
+
+  - pip:
+    - -r requirements.txt
